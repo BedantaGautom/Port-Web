@@ -304,7 +304,40 @@ header .navbar ul li a:hover {
 
 .portfolio .box-container .box:hover img {
     transform: scale(1.2);
-    opacity: 0.5;
+    opacity: 0.25;
+}
+
+.portfolio .box-container .box .text {
+    position: relative;
+    bottom: 17rem;
+    margin-top: 1.5rem;
+    visibility: hidden;
+    font-size: 1.5rem;
+    align-content: center;
+    justify-content: center;
+    color: var(--yellow);
+    font-weight: bold;
+    text-align: center;
+}
+
+.portfolio .box-container .box:hover .text2 {
+    visibility: visible;
+}
+
+.portfolio .box-container .box .text2 {
+    position: relative;
+    bottom: 16rem;
+    margin-top: 1.5rem;
+    visibility: hidden;
+    font-size: 1.25rem;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.portfolio .box-container .box:hover .text {
+    visibility: visible;
 }
 
 .contact .row {
@@ -376,6 +409,19 @@ header .navbar ul li a:hover {
     color: var(--yellow);
     font-size: 2.75rem;
 }
+
+
+/* 
+#overlay .text{
+    position: relative;
+    bottom: 4rem;
+    left: 0;
+    visibility: hidden;
+}
+
+#overlay:hover .text{
+    visibility: visible;
+} */
 
 
 /* media queries  */
